@@ -23,12 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop Screenshot](./desktop.png)
+![Mobile Screenshot](./mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github.com/soldochris/Order-summary-component](https://github.com/soldochris/Order-summary-component)
+- Live Site URL: [soldochris.github.io/Order-summary-component](https://soldochris.github.io/Order-summary-component/)
 
 ## My process
 
@@ -42,6 +43,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [christiansoldevilla.tech](https://christiansoldevilla.tech/?i=1)
+- Frontend Mentor - [@soldochris](https://www.frontendmentor.io/profile/soldochris)
+- LinkedIn - [/christian-soldevilla](https://www.linkedin.com/in/christian-soldevilla/)
