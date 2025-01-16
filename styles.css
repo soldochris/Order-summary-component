@@ -12,4 +12,131 @@
 
 body{
   font-family: "Overpass", sans-serif;
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-size: contain;
+  background-color: var(--Pale-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+
+  & main{
+    width: 340px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 36px rgba(0, 0, 0, 0.3);
+
+    & .hero-image{
+      width: 100%;
+    }
+
+    & section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding: 16px;
+      gap: 18px;
+
+      & h2{
+        color: var(--Dark-blue);
+        margin: 0;
+      }
+
+      & p{
+        text-align: center;
+        color: var(--Desaturated-blue);
+      }
+
+      & .pill{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        height: auto;
+        background-color: var(--Very-pale-blue);
+        height: 60px;
+        border-radius: 10px;
+        align-items: center;
+        justify-items: center;
+        padding: 16px 8px;
+        column-gap: 8px;
+        
+        height: 80px;
+
+        & div{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+
+          & p{
+            margin: 0;
+            color: var(--Dark-blue);
+            font-weight: 700;
+          }
+
+          & span{
+            color: var(--Desaturated-blue);
+          }
+        }
+
+        & a{
+          color: var(--Bright-blue);
+          font-weight: 700;
+          text-decoration: underline;
+        }
+
+        & a:hover{
+          text-decoration: none;
+          color: var(--Dark-blue);
+        }
+      }
+
+      & .proceed-button{
+        background-color: var(--Bright-blue);
+        color: var(--Very-pale-blue);
+        border: none;
+        width: 100%;
+        padding: 16px 0;
+        border-radius: 10px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      & .proceed-button:hover{
+        opacity: .7;
+      }
+
+      & .cancel-button{
+        background-color: transparent;
+        border: none;
+        color: var(--Desaturated-blue);
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      & .cancel-button:hover{
+        color: var(--Dark-blue);
+      }
+    }
+  }
+
+  & footer{
+    text-align: center;
+    font-size: 12px;
+    color: var(--Desaturated-blue);
+
+    & a{
+      color: var(--Bright-blue);
+    }
+
+    & a:hover{
+      text-decoration: none;
+      color: var(--Dark-blue);
+    }
+  }
 }
