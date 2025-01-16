@@ -63,7 +63,6 @@ body{
         justify-items: center;
         padding: 16px 8px;
         column-gap: 8px;
-        
         height: 80px;
 
         & div{
@@ -138,5 +137,11 @@ body{
       text-decoration: none;
       color: var(--Dark-blue);
     }
+  }
+}
+
+@media (width > 375px) {
+  body{
+    background-image: url(./images/pattern-background-desktop.svg);
   }
 }
